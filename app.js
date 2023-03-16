@@ -1,5 +1,5 @@
 // Define the game variables
-const dogBreeds = ["beagle", "french bulldog", "dalmatian", "golden retriever", "labrador", "poodle", "rottweiler", "husky", "cockapoo", "pitbull", "affenpinscher", "whippet", "kelpie", "leonberg"];
+const dogBreeds = ["beagle", "bulldog/french", "dalmatian", "redbone", "labrador", "poodle", "rottweiler", "husky", "cockapoo", "pitbull", "affenpinscher", "whippet", "kelpie", "leonberg"];
 let selectedDogBreed = "";
 let selectedDogBreedArr = [];
 let guessedLetters = [];
