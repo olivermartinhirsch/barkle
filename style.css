@@ -1,0 +1,107 @@
+.game-container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .game-header {
+	padding: 20px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  .game-header h1 {
+	margin: 0;
+	font-size: 36px;
+  }
+  
+  .game-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin-top: 20px;
+  }
+  
+  .game-image {
+	margin-bottom: 20px;
+  }
+  
+  .game-image img {
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+  }
+  
+  .game-input {
+	margin-bottom: 20px;
+  }
+  
+  .game-input label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  .game-input input[type="text"] {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+	text-align: center;
+  }
+  
+  .game-input button {
+	padding: 10px 20px;
+	font-size: 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  .game-input button:hover {
+	background-color: #3e8e41;
+  }
+  
+  .game-input input[type="text"]:focus {
+	outline: none;
+  }
+  
+  .game-word {
+	margin-bottom: 20px;
+  }
+  
+  .game-word span {
+	display: inline-block;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0 10px;
+  }
+  
+  .game-guesses {
+	font-size: 20px;
+  }
+  
+  .game-guesses p {
+	margin: 0;
+  }
+  
+  .game-guesses span {
+	font-weight: bold;
+	margin: 0 5px;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.game-word span {
+	  font-size: 40px;
+	}
+  }
+  
