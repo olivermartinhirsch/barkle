@@ -88,20 +88,84 @@
   
   .game-guesses {
 	font-size: 20px;
+	text-align: center;
   }
   
   .game-guesses p {
 	margin: 0;
+	text-align: center;
   }
   
   .game-guesses span {
 	font-weight: bold;
 	margin: 0 5px;
   }
+
+  /* Small screens (mobile devices) */
+@media only screen and (max-width: 600px) {
+	#game-container {
+	  width: 90%;
+	  margin: 0 auto;
+	}
+	#title {
+	  font-size: 2rem;
+	}
+	#guess-container {
+	  margin-top: 1rem;
+	}
+	#guess-form {
+	  display: flex;
+	  flex-direction: column;
+	}
+	#guess-input {
+	  margin-bottom: 1rem;
+	}
+	.letter-button {
+	  width: 3rem;
+	  height: 3rem;
+	  margin-right: 0.5rem;
+	  margin-bottom: 0.5rem;
+	  font-size: 1.5rem;
+	}
+  }
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+	#game-container {
+	  width: 50%;
+	  margin: 0 auto;
+	}
+	#title {
+	  font-size: 3rem;
+	}
+	#guess-container {
+	  margin-top: 2rem;
+	}
+	#guess-form {
+	  display: flex;
+	  flex-direction: row;
+	}
+	#guess-input {
+	  margin-right: 1rem;
+	}
+	.letter-button {
+	  width: 4rem;
+	  height: 4rem;
+	  margin-right: 1rem;
+	  margin-bottom: 1rem;
+	  font-size: 2rem;
+	}
+	.game-guesses {
+		text-align: center;
+	  }
+  }
   
   @media screen and (max-width: 600px) {
 	.game-word span {
 	  font-size: 40px;
 	}
+	.game-guesses {
+		text-align: center;
+	  }
   }
   
